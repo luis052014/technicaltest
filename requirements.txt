@@ -1,0 +1,7 @@
+asgiref==3.4.1
+Django==4.0.1
+django-widget-tweaks==1.4.9
+Pillow==9.0.0
+psycopg2==2.9.3
+simplejson==3.17.6
+sqlparse==0.4.2
