@@ -7,10 +7,10 @@
             <h2>Inventario Disponible</h2>
             <table class="table table-striped table-hover table-bordered">
                 <thead>
-                    <th>sku</th>
-                    <th>producto</th>
+                    <th>SKU</th>
+                    <th>Producto</th>
                     <th>Inventario</th>
-                    <th>precio</th>
+                    <th>Precio</th>
                 </thead>
                 <tbody>
                     {% for product in products %}
@@ -21,7 +21,7 @@
 
                     <th>{{ product.sku }}</th>
                     <td>{{ product.name}}</td>
-                    <td>{{ product.quantity }}</td>
+                    <td>{{ product.quantity }} unidades</td>
                     <td>${{ product.price }}</td>
                     <td><a href="{% url 'seller_addsale' product.sku %}" class="btn btn-outline-success">venta</a></td>
 
